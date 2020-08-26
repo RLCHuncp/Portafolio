@@ -85,6 +85,7 @@ header{
     background: rgb(15, 190, 221);
     position: fixed;
     width: 100%;
+    z-index: 1;
 } 
 .menu li{
     flex-grow: 1;
