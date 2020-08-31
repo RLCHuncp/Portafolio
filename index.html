@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">    <title>Portafolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    <title>Portafolio</title>
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/995e334b50.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
@@ -16,13 +17,13 @@
         <nav class="menu">
                 <ul>
                     <li>
-                        <a class="link" href="#sobreMi">Sobre Mí</a>
+                        <a href="#sobreMi">Sobre Mí</a>
                     </li>
                     <li>
-                        <a class="link" href="#skills">Skills</a>
+                        <a href="#skills">Skills</a>
                     </li>
                     <li>
-                        <a class="link" href="#Proyectos">Proyectos</a>
+                        <a href="#Proyectos">Proyectos</a>
                     </li>
                     <li>
                         <a href="#Recomendaciones">Recomendaciones</a>
@@ -34,9 +35,7 @@
         </nav>
         <div class="contenido-header" id="contenido-header">
             <div class="textos-header">
-                <h1>Hola! soy <strong>Ruth Campos</strong><br>
-                    <strong>Front-end Developer</strong> con mucha pasión por la <strong>tecnología</strong>.                </h1>
-                
+                <h1>Hola! soy <span class="typed"></span> <br> <span class="typed-2"></span> con mucha pasión por la tecnología.</h1>
                 <a href="cv-pdf/CV-RLCH.pdf" download="cv-lucy-campos">Descargar CV</a>
             </div>
             <div class="img-header">
@@ -46,63 +45,60 @@
         <div class="wave-bottom" style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.98 C149.99,150.00 384.59,-49.83 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; "></path></svg></div>
     </header>
     <main>
-        <section class="acerca-de contenedor" id="sobreMi">
+        <section id="sobreMi" class="acerca-de contenedor">
             <h3>Sobre Mí</h3>
-            <p>Front-end Developer egresada de Laboratoria y
-                bachiller en Ingeniería de Sistemas con sólida
+            <p>Front-end Developer egresada de <strong>Laboratoria </strong>y
+                bachiller en <strong>Ingeniería de Sistemas </strong>con sólida
                 formación en desarrollo web y diseño de interfaz de
                 usuario, he desarrollado aplicaciones web utilizando
                 metodologías ágiles para el desarrollo de proyectos
                 de calidad y me encanta aplicar mis conocimientos
-                para cambiar el mundo de manera positiva. Soy
-                autodidacta y dispuesta al aprendizaje continuo.</p>
-            <div class="contenedor-acerca-de">
-                <div class="card-acerca">
-                    <i class="fas fa-users"></i>
-                    <h4>Trabajo en Equipo</h4>
-                    <p>Habilidad de trabajar en equipo, teniendo el sentido de compromiso de esta manera trabajando activamente y aportando soluciones.</p>
-                </div>
-                <div class="card-acerca">
-                    <i class="fas fa-chalkboard-teacher"></i>
-                    <h4>Autodidacta</h4>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere non rem libero voluptatibus.</p>
-                </div>
-                <div class="card-acerca">
-                    <i class="fas fa-sitemap"></i>
-                    <h4>Capacidad para trabajar bajo presion</h4>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere non rem libero voluptatibus.</p>
-                </div>
-            </div>
+                para cambiar el mundo de manera positiva.</p>
+            <img src="images/Lucy.jpg" alt="lucy">
         </section>
 
         <section class="skills contenedor" id="skills">
-            <h3>Skills</h3>
-            <article class="skill-Frontend">
-                <ul>
-                    <li><img src="images/skills/css3.png" alt=""><p>CSS3</p></li>
-                    <li><img src="images/skills/javascript.png" alt=""><p>JavaScript</p></li>
-                    <li><img src="images/skills/html5.png" alt=""><p>HTML5</p></li>
-                </ul>
-                <ul>
-                    <li><img src="images/skills/git.png" alt=""><p>Git</p></li>
-                    <li><img src="images/skills/github.png" alt=""><p>GitHub</p></li>
-                    <li><img src="images/skills/gitlab.png" alt=""><p>GitLab</p></li>
-                </ul>
-                <ul>
-                    <li><img src="images/skills/react.png" alt=""><p>React</p></li>
-                    <li><img src="images/skills/redux.png" alt=""><p>Redux</p></li>
-                    <li><img src="images/skills/materialui.png" alt=""><p>MaterialUI</p></li>
-                </ul>
-                <ul>
-                    <li><img src="images/skills/jest.png" alt=""><p>Jest</p></li>
-                    <li><img src="images/skills/nodejs.png" alt=""><p>Node</p></li>
-                    <li><img src="images/skills/firebase.png" alt=""><p>Firebase</p></li>
-                </ul>
-                <ul>
-                    <li><img src="images/skills/figma.png" alt=""><p>Figma</p></li>
-                    <li><img src="images/skills/sass.png" alt=""><p>SASS</p></li>
-                </ul>
-            </article>
+            <h3>Habilidades</h3>
+            <div class="contenedor-skills">
+                <article class="skill-tech">
+                    <ul>
+                        <li><img src="images/skills/css3.png" alt=""><p>CSS3</p></li>
+                        <li><img src="images/skills/javascript.png" alt=""><p>JavaScript</p></li>
+                        <li><img src="images/skills/html5.png" alt=""><p>HTML5</p></li>
+                        <li><img src="images/skills/git.png" alt=""><p>Git</p></li>
+                        <li><img src="images/skills/github.png" alt=""><p>GitHub</p></li>
+                        <li><img src="images/skills/gitlab.png" alt=""><p>GitLab</p></li>
+                        <li><img src="images/skills/react.png" alt=""><p>React</p></li>
+                        <li><img src="images/skills/redux.png" alt=""><p>Redux</p></li>
+                        <li><img src="images/skills/materialui.png" alt=""><p>MaterialUI</p></li>
+                        <li><img src="images/skills/jest.png" alt=""><p>Jest</p></li>
+                        <li><img src="images/skills/nodejs.png" alt=""><p>Node</p></li>
+                        <li><img src="images/skills/firebase.png" alt=""><p>Firebase</p></li>
+                        <li><img src="images/skills/figma.png" alt=""><p>Figma</p></li>
+                        <li><img src="images/skills/sass.png" alt=""><p>SASS</p></li>
+                    </ul>
+                </article>
+                <article class="skill-soft">
+                    <ul>
+                        <li>
+                            <img src="images/skills/skill-soft/wequipo.png" alt="">
+                            <p>Trabajo en Equipo</p>
+                        </li>
+                        <li>
+                            <img src="images/skills/skill-soft/adaptation.png" alt="">
+                            <p>Adaptación al cambio</p>
+                        </li>
+                        <li>
+                            <img src="images/skills/skill-soft/clock.png" alt="">
+                            <p>Gestión del tiempo</p>
+                        </li>
+                        <li>
+                            <img src="images/skills/skill-soft/student.png" alt="">
+                            <p>Autodidacta</p>
+                        </li>
+                    </ul>
+                </article>
+            </div>
         </section>
 
         <section class="proyectos" id="Proyectos">
@@ -110,45 +106,45 @@
             <p>Hecha un vistazo a mis proyectos</p>
             <article class="lista__proyectos">
                 <div class="contenedor-proyectos">
-                    <img src="images/Repositorio/cipher-1.png" alt="proyecto cc">
-                    <div class="descripcion-proyectos">
-                        <a href="https://rlchuncp.github.io/LIM012-cipher/src/">Ver Proyecto</a>
-                        <a href="https://github.com/RLCHuncp/LIM012-cipher">Ver Código</a>
-                    </div>
-                </div>
-                <div class="contenedor-proyectos">
-                    <img src="images/Repositorio/data-lover-2.png" alt="proyecto cc">
-                    <div class="descripcion-proyectos">
-                        <a href="https://rlchuncp.github.io/LIM012-data-lovers/src/index.html">Ver Proyecto</a>
-                        <a href="https://github.com/RLCHuncp/LIM012-data-lovers">Ver Código</a>
-                    </div>
-                </div>
-                <div class="contenedor-proyectos">
                     <img src="images/Repositorio/red-social.png" alt="proyecto cc">
                     <div class="descripcion-proyectos">
-                        <a href="https://rlchuncp.github.io/LIM012-fe-social-network/src">Ver Proyecto</a>
-                        <a href="https://github.com/RLCHuncp/LIM012-fe-social-network">Ver Código</a>
-                    </div>
-                </div>
-                <div class="contenedor-proyectos">
-                    <img src="images/Repositorio/data-lover-1.png" alt="proyecto cc">
-                    <div class="descripcion-proyectos">
-                        <a href="">Ver Proyecto</a>
-                        <a href="">Ver Código</a>
+                        <a class="background-rs" href="https://rlchuncp.github.io/LIM012-fe-social-network/src" target="_blank">Ver Proyecto</a>
+                        <a class="background-cod" href="https://github.com/RLCHuncp/LIM012-fe-social-network" target="_blank">Ver Código</a>
                     </div>
                 </div>
                 <div class="contenedor-proyectos ">
                     <img class="img__bq" src="images/Repositorio/tablet-inicio.png" alt="proyecto cc">
                     <div class="descripcion-proyectos">
-                        <a href="https://rlchuncp.github.io/LIM012-fe-burger-queen/">Ver Proyecto</a>
-                        <a href="https://github.com/RLCHuncp/LIM012-fe-burger-queen">Ver Código</a>
+                        <a class="background-rs" href="https://burger-queen-luja.herokuapp.com/" target="_blank">Ver Proyecto</a>
+                        <a class="background-cod" href="https://github.com/RLCHuncp/LIM012-fe-burger-queen" target="_blank">Ver Código</a>
+                    </div>
+                </div>
+                <div class="contenedor-proyectos">
+                    <img src="images/Repositorio/data-lover-2.png" alt="proyecto cc">
+                    <div class="descripcion-proyectos">
+                        <a class="background-rs" href="https://rlchuncp.github.io/LIM012-data-lovers/src/index.html" target="_blank">Ver Proyecto</a>
+                        <a class="background-cod" href="https://github.com/RLCHuncp/LIM012-data-lovers" target="_blank">Ver Código</a>
+                    </div>
+                </div>
+                <div class="contenedor-proyectos">
+                    <img src="images/Repositorio/social-media.png" alt="proyecto cc">
+                    <div class="descripcion-proyectos">
+                        <a class="background-rs" href="https://social-media-lu.herokuapp.com/" target="_blank">Ver Proyecto</a>
+                        <a class="background-cod" href="https://github.com/RLCHuncp/social-media-dashboard-react" target="_blank">Ver Código</a>
+                    </div>
+                </div>
+                <div class="contenedor-proyectos">
+                    <img src="images/Repositorio/cipher-1.png" alt="proyecto cc">
+                    <div class="descripcion-proyectos">
+                        <a class="background-rs" href="https://github.com/RLCHuncp/LIM012-cipher" target="_blank">Ver Proyecto</a>
+                        <a class="background-cod" href="https://rlchuncp.github.io/LIM012-cipher/src/" target="_blank">Ver Código</a>
                     </div>
                 </div>
                 <div class="contenedor-proyectos">
                     <img src="images/Repositorio/data-lover-1.png" alt="proyecto cc">
-                    <div class="descripcion-proyectos">
-                        <a href="">Ver Proyecto</a>
-                        <a href="">Ver Código</a>
+                    <div class="descripcion-proyectos">         
+                        <a class="background-rs" href="https://rlchuncp.github.io/LIM012-fe-md-links/" target="_blank">Ver Proyecto</a>
+                        <a class="background-cod" href="https://github.com/RLCHuncp/LIM012-fe-md-links" target="_blank">Ver Código</a>
                     </div>
                 </div>
             </article>
@@ -158,24 +154,16 @@
             <h3>Recomendaciones</h3>
             <section class="slider">
                 <div class="cont-slider">
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa exercitationem, numquam dolore a dolores quasi, perspiciatis cum officiis dolorem repellendus dignissimos assume</p>
-                    <img src="images/foto.jpg" alt="foto">
-                    <h4>Lucy</h4>
+                    <p>Lucy es una persona orientada a cumplir sus metas, posee iniciativa y creatividad. Tuve la oportunidad de colaborar con ella y la experiencia fue muy fructífera siempre dispuesta a innovar y crear nuevos conocimientos la considero una profesional muy valiosa para cualquier organización.</p>
+                    <img src="images/jael.jpg" alt="foto">
+                    <h4>Jael Rodriguez</h4>
+                    <h5>Front-end Developer</h5>
                 </div>
                 <div class="cont-slider">
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa exercitationem, numquam dolore a dolores quasi, perspiciatis cum officiis dolorem repellendus dignissimos assume</p>
-                    <img src="images/foto.jpg" alt="foto">
-                    <h4>Ruth</h4>
-                </div>
-                <div class="cont-slider">
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa exercitationem, numquam dolore a dolores quasi, perspiciatis cum officiis dolorem repellendus dignissimos assume</p>
-                    <img src="images/foto.jpg" alt="foto">
-                    <h4>Rossy</h4>
-                </div>
-                <div class="cont-slider">
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa exercitationem, numquam dolore a dolores quasi, perspiciatis cum officiis dolorem repellendus dignissimos assume</p>
-                    <img src="images/foto.jpg" alt="foto">
-                    <h4>Achi</h4>
+                    <p>Lucy, es una persona muy comprometida con los proyectos que realiza. También, es autodidacta, resiliente y organizada. Tuve la oportunidad de trabajar un proyecto con ella en el bootcamp de Laboratoria donde me contagió su entusiasmo por el código y me sorprendió la lógica con la que resuelve los retos. Tengo la certeza de que Lucy puede aportar con su conocimiento y compromiso a cualquier equipo de trabajo.</p>
+                    <img src="images/Rosmery.jpg" alt="foto">
+                    <h4>Rosmery Terry/h4>
+                    <h5>UX Designer | Interior Designer</h5>
                 </div>
             </section>
         </div>
@@ -184,11 +172,9 @@
         <div class="footer-contact" id="Contactame">
             <h6>Contáctame</h6>
             <p>rlch06.uncp@gmail.com</p>
-            <p>+51 927081754</p>
-            <i class="fab fa-facebook-f"></i>
-            <i class="fab fa-github"></i>
-            <i class="fab fa-linkedin-in"></i>
-            <i class="fab fa-twitter"></i>
+            <a href="https://www.facebook.com/Lucy06Campos/" target="_blank"><i class="fab fa-facebook-f" alt="Facebook"></i></a>
+            <a href="https://github.com/RLCHuncp" target="_blank"><i class="fab fa-github" alt="github"></i></a>
+            <a href="https://twitter.com/RUTHLUCY8" target="_blank"><i class="fab fa-twitter" alt="twitter"></i></a>            
         </div>
         <div class="footer-logo">
             <div class="background-linkedin">
@@ -198,11 +184,12 @@
             <div class="informacion-linkedin">
                 <p class="name">Ruth Lucy Campos Huamantica</p>
                 <p><span><</span>Front-end Developer<span>/></span></p>
-                <a href="www.linkedin.com/in/ruthcampos">Ver perfil</a>
+                <a href="https://www.linkedin.com/in/ruthcampos" target="_blank">Ver perfil</a>
                 <img src="images/logo-linkedin.png" alt="Logo-linkedin">
             </div>
         </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
     <script src="menu.js"></script>
     <script src="slider.js"></script>
 </body>
