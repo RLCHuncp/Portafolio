@@ -5,16 +5,12 @@ let contador = 1;
 
 // let tamanoWidth =  cajaTestimonio[0].clientWidth;
 let tamanoWidth = 100;
-let intervalo = 3000;
+let intervalo = 12000;
 
 setInterval(() => {
     slides();
 }, intervalo)
 
-
-// window.addEventListener('resize', function(){
-//     tamanoWidth =  cajaTestimonio[0].clientWidth;
-// })
 window.addEventListener('resize', function(){
     tamanoWidth = 100;
 })
