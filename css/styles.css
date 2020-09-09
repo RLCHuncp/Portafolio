@@ -40,7 +40,9 @@ header{
     height: 700px;
     width: 100%;
     position: relative;
-    background: #00B4DB;
+    background: #00c6ff;
+    background: -webkit-linear-gradient(to right, #0072ff, #00c6ff);
+    background: linear-gradient(to right, #0072ff, #00c6ff);
 }
 /* Menú */
     #btn-menu{
@@ -67,7 +69,6 @@ header{
 
     header label:hover{
         cursor: pointer;
-        /* background: rgba(0, 0, 0, 0.3); */
     }
 
 /* MENÚ BURGER */
@@ -485,9 +486,17 @@ footer p{
     header{
         height: auto;
     }
+    .img-burger{
+        width: 30px;
+        height: 30px;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
     header label{
         display: block;
         position:fixed;
+        width: 50px;
+        height: 50px;
     }
     .menu{
         position: absolute;
@@ -498,8 +507,8 @@ footer p{
     .menu ul{
         flex-direction: column;
         position:fixed;
-        margin-top: 70px;
-        width: 50%;
+        margin-top: 50px;
+        width: 70%;
         background: rgba(0, 0, 0, 0.8);
     }
     .menu li{
