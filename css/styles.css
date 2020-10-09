@@ -163,7 +163,8 @@ header{
         transform: translateX(0);
         opacity: 1;
         animation: animacion1 1s ease-out;
-        width: 100%;
+        width: 87%;
+        margin: 55px 0 0 20px;
     }
     @keyframes animacion1{
         0%{
@@ -540,6 +541,7 @@ footer p{
     }
     .contenido-header .img-header{
         width: 80%;
+        margin: 0px;
     }
     .contenedor-acerca-de{
         justify-content: center;
